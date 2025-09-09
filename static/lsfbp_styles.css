@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body {
+    font-family: Arial, sans-serif;
+    background: url('/static/images/team_image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: #f92267;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+}
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+select, input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #218838;
+}
+.heading{
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+.para{
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: 500;
+}
+.result-heading{
+    font-family: "Roboto";
+    font-size: 27px;
+    font-weight: 500;
+}

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body {
+    font-family: Arial, sans-serif;
+    background: url('/static/Images/wow_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-top: 15%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    display: inline-block;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 18px;
+}
+.btn {
+    background-color: #ff4757;
+    color: white;
+    padding: 15px 25px;
+    margin: 15px;
+    font-size: 20px;
+    font-family: "Roboto";
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: #e84118;
+}
+.icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.main-heading{
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold ;
+}
+.paragraph{
+    font-family: "Roboto";
+    font-size: 23px;
+}
